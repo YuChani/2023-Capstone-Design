@@ -2,6 +2,15 @@
 
 Project made by Silesian University of Technology and Sun Moon University students.
 
+
+## What is Driver-in-the-loop
+
+
+Our project utilizes data from Carla Simulator including vehicle roll, pitch, yaw, speed, and steering values. To control the vehicle's roll, pitch, yaw, and steering, which involve four servo motors, we also incorporated PCA9685. The vehicle's speed is controlled using a DC motor and an L298N motor driver.
+
+With this setup, our scale car reflects the movements of the vehicle in the simulator in real-time. This allows us to visually observe the changes in the vehicle's behavior directly in the simulator.
+
+
 ## Used Project
 
 * Carla simulator set up on PC(OS is Linux)
