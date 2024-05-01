@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaBoundingBox.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaEgoVehicleControl.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaEgoVehicleStatus.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaEgoVehicleInfoWheel.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaEgoVehicleInfo.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaCollisionEvent.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaLaneInvasionEvent.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaWorldInfo.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaActorInfo.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaActorList.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaControl.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaStatus.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaTrafficLightInfo.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaTrafficLightInfoList.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaTrafficLightStatus.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaTrafficLightStatusList.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaWalkerControl.msg;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg/CarlaWeatherParameters.msg"
+services_str = "/home/chani/catkin_ws/src/ros-carla-msgs-master/srv/SpawnObject.srv;/home/chani/catkin_ws/src/ros-carla-msgs-master/srv/DestroyObject.srv;/home/chani/catkin_ws/src/ros-carla-msgs-master/srv/GetBlueprints.srv"
+pkg_name = "carla_msgs"
+dependencies_str = "std_msgs;geometry_msgs;diagnostic_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "carla_msgs;/home/chani/catkin_ws/src/ros-carla-msgs-master/msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg;geometry_msgs;/opt/ros/noetic/share/geometry_msgs/cmake/../msg;diagnostic_msgs;/opt/ros/noetic/share/diagnostic_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

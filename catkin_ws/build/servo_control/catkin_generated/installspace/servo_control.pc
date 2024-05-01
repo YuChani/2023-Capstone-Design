@@ -1,0 +1,8 @@
+prefix=/home/chani/catkin_ws/install
+
+Name: servo_control
+Description: Description of servo_control
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lservo_control
+Requires: rospy std_msgs

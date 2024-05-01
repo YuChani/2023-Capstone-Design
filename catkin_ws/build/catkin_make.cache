@@ -1,0 +1,2 @@
+ros-carla-msgs-master:servo_control:test
+-DCATKIN_DEVEL_PREFIX=/home/chani/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chani/catkin_ws/install -G Unix Makefiles
