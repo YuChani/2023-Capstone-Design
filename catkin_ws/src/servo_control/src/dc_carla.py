@@ -31,15 +31,15 @@ def speed_callback(data):
     speed = data.data
     rospy.loginfo("받은 속도: {}".format(speed))
 
-    # 속도를 PWM 듀티 사이클로 매핑합니다.
+    # 속도를 PWM 듀티 사이클로 매핑
     duty_cycle_a = map_speed_to_duty_cycle(speed)
     duty_cycle_b = duty_cycle_a
 
-    # 각각의 모터에 PWM 듀티 사이클을 설정합니다.
+    # 모터에 PWM 듀티 사이클을 설정
     pwm_a.ChangeDutyCycle(duty_cycle_a)
     pwm_b.ChangeDutyCycle(duty_cycle_b)
 
-    # 속도의 부호에 따라 모터 방향을 제어합니다.
+    # 모터 방향을 제어
     if speed > 0:
         # 정방향
         GPIO.output(IN1, GPIO.HIGH)
@@ -59,10 +59,10 @@ def map_speed_to_duty_cycle(speed):
     min_duty_cycle = 0
     max_duty_cycle = 100
     
-    # 입력 속도를 min_speed와 max_speed 사이로 클리핑합니다.
+    # 입력 속도를 min_speed와 max_speed 사이로 클리핑
     speed = max(min(speed, max_speed), min_speed)
     
-    # 속도에 따라 PWM 듀티 사이클을 계산합니다.
+    # 속도에 따라 PWM 듀티 사이클을 계산
     if speed == 0:
         duty_cycle = 0
     else:
